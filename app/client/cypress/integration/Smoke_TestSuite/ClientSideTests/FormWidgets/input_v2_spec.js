@@ -136,7 +136,7 @@ describe("Input widget V2 - ", () => {
   });
 
   describe("Should test other properties of the input widget - ", () => {
-    it("validation", () => {
+    it("#valid", () => {
       cy.openPropertyPane(widgetName);
       [
         ["{{1 === 2}}", "false"],
